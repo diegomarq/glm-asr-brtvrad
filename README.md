@@ -1,3 +1,3 @@
-# GLM-ASR
+# GLM-ASR-BRTVRAD
 
 It is a Binomial regression with the numerator of [WER equation](https://en.wikipedia.org/wiki/Word_error_rate) acting as the number of failures and the denominator as the number of trials. This construction is associated with an interpretation that the WER approximately corresponds to the probability of correctly transcribing a single word. The regression features were selected by a BIC (Bayesian Information Criteria) stepwise procedure searching backwards from an initial set formed by all the main effects (covariates and methods), pairwise linear interactions and second order polynomial terms (for the quantitative variables). Even though this is a low-capacity model, with only 75 degrees of freedom, parameter interpretation and inference is not straightforward.
